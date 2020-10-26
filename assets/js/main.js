@@ -4,7 +4,7 @@ let cartCounter = 0;
 let cartPrice = 0;
 
 let btnClickHandler = (e) => {
-  let target = e.target;1
+  let target = e.target;
 
   if (target.classList.contains('item-actions__cart')) {
 
@@ -34,8 +34,3 @@ let btnClickHandler = (e) => {
 };
 
 buttonsContainer.addEventListener('click', btnClickHandler);
-
-
-// $('#toggle').click(function() {
-// 	$('#elem').slideToggle(1000);
-// });
