@@ -1,0 +1,51 @@
+{
+  "name": "gulp-init",
+  "version": "1.0.0",
+  "description": "A gulp template, The version of gulp is 4 to create an initialization template ,Support ES6,Babel,Auto Prefix and so on, Configuration of development and production environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "set NODE_ENV=development&gulp",
+    "build": "set NODE_ENV=production&gulp"
+  },
+  "keywords": [
+    "gulp",
+    "gulp4",
+    "gulp-template",
+    "init",
+    "gulp-dev",
+    "gulp-development"
+  ],
+  "author": "AmandaYi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaYi/gulpfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmandaYi/gulpfile/issues"
+  },
+  "homepage": "https://github.com/AmandaYi/gulpfile#readme"
+}

@@ -1,0 +1,7 @@
+# temp/
+# *.bat
+.idea/
+.DS_Store
+node_modules
+.vscode
+

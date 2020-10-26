@@ -1,0 +1,33 @@
+{
+  "name": "front-end-shop-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Alecto/front-end-shop-template.git",
+  "author": "Alecto <fomenkoandrey@inbox.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
+    "fix": "0.0.6",
+    "git": "^0.1.5",
+    "init": "^0.1.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "yarn-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "browser-sync": "^2.26.13",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-init": "^1.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "postcss": "^8.1.2",
+    "sort-css-media-queries": "^1.5.2"
+  }
+}
